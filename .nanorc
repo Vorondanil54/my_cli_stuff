@@ -1,0 +1,23 @@
+set linenumbers
+set tabsize 4
+set autoindent
+set tabstospaces
+
+set mouse
+
+set softwrap
+set atblanks
+
+set indicator
+
+set historylog
+set casesensitive
+set regexp
+
+set backup
+set backupdir "~/.nano/backup/"
+
+# set fill 80
+# set breaklonglines
+
+include "~/.nano/*.nanorc"

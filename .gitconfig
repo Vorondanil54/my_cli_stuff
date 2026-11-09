@@ -1,0 +1,18 @@
+[core]
+	editor = micro
+	# \"C:\\Users\\shush\\AppData\\Local\\Programs\\Microsoft VS Code\\bin\\code\" --wait
+	pager = delta
+	safecrlf = false
+
+[init]
+	defaultbranch = main
+
+[interactive]
+	diffFilter = delta --color-only
+
+[delta]
+	navigate = true  # use n and N to move between diff sections
+	dark = true      # or light = true, or omit for auto-detection
+
+[merge]
+	conflictStyle = zdiff3
