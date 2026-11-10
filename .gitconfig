@@ -4,6 +4,8 @@
 	pager = delta
 	safecrlf = false
 
+# I removed [user] field from this copy of my gitconfig 'cause I through it will be good to not spoil my user and email options
+
 [init]
 	defaultbranch = main
 
