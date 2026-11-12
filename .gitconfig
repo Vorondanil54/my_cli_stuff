@@ -4,7 +4,12 @@
 	pager = delta
 	safecrlf = false
 
-# I removed [user] field from this copy of my gitconfig 'cause I through it will be good to not spoil my user and email options
+[user]
+	name = Vorondanil54
+	email = voronchihin.danill@yandex.ru
+
+[include]
+	path = ~/.config/delta/themes.gitconfig
 
 [init]
 	defaultbranch = main
@@ -15,6 +20,10 @@
 [delta]
 	navigate = true  # use n and N to move between diff sections
 	dark = true      # or light = true, or omit for auto-detection
+	true-color = always
+	features = colibri
+	line-numbers = true
+	side-by-side = true
 
 [merge]
 	conflictStyle = zdiff3
