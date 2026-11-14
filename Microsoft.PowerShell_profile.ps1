@@ -26,6 +26,9 @@ function matrix { rusty-rain --shade --group large-letters }
 # === Fastfetch ===
 fastfetch
 
+# === Today's Date ===
+date
+
 # === Oh My Posh ===
 oh-my-posh init pwsh --config ~/.mytheme.omp.json | Invoke-Expression
 
