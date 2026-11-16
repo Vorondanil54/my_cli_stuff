@@ -1,7 +1,7 @@
 #=============== Utils Batch Commands ===============
 
 ezals() {
-    eza -l -F=always --color=always --color-scale=all --icons=always -a --group-directories-first -h --loc=lines -m --git --git-repos --no-user
+    eza -l -F=always --color=always --color-scale=all --icons=always -a --group-directories-first -h --loc=lines -m --git --git-repos --no-user "$@"
 }
 
 #=============== Info Fetching ===============
@@ -13,7 +13,7 @@ fastfetch --disable-linewrap
 date
 
 # === Oh My Posh ===
-eval "$(oh-my-posh init bash)"
+# eval "$(oh-my-posh init bash)"
 
 # === Onefetch ===
 # git repository greeter
