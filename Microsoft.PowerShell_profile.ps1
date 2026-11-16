@@ -7,7 +7,7 @@ Import-Module -Name Microsoft.WinGet.CommandNotFound
 
 #=============== Folders Quick Access ===============
 
-# Here I place functions to do "Set-Location" commands for quick access of my work and other important and cool folders/directories
+function zerohack { Set-Location "D:/zeroHACK" }
 
 #=============== Personal Commands ===============
 
@@ -17,13 +17,13 @@ function check-nano-backup { Get-ChildItem -Path "~/.nano/backup" }
 
 #=============== Utils Batch Commands ===============
 
-function ezals { eza -l -F=always --color=always --color-scale=all --icons=always -a --group-directories-first -h --loc=lines -m --git --git-repos --no-user }
+function ezals { eza -l -F=always --color=always --color-scale=all --icons=always -a --group-directories-first -h --loc=lines -m --git --git-repos --no-user @args }
 
 function matrix { rusty-rain --shade --group large-letters }
 
 #=============== Info Fetching ===============
 
-# === Fastfetch ===
+# === Text Editor — Nano ===
 fastfetch
 
 # === Today's Date ===
