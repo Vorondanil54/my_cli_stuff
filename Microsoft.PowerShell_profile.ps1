@@ -7,7 +7,7 @@ Import-Module -Name Microsoft.WinGet.CommandNotFound
 
 #=============== Folders Quick Access ===============
 
-function zerohack { Set-Location "D:/zeroHACK" }
+# Here I place functions to do "Set-Location" commands for quick access of my work and other important and cool folders/directories
 
 #=============== Personal Commands ===============
 
