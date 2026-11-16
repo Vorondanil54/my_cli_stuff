@@ -4,9 +4,7 @@
 	pager = delta
 	safecrlf = false
 
-[user]
-	name = Vorondanil54
-	email = voronchihin.danill@yandex.ru
+# I removed [user] field from this copy of my gitconfig 'cause I through it will be good to not spoil my user and email options
 
 [include]
 	path = ~/.config/delta/themes.gitconfig
