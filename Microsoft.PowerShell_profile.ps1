@@ -23,7 +23,7 @@ function matrix { rusty-rain --shade --group large-letters }
 
 #=============== Info Fetching ===============
 
-# === Text Editor — Nano ===
+# === Fastfetch ===
 fastfetch
 
 # === Today's Date ===
