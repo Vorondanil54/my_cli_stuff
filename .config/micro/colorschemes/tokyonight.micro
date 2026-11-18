@@ -18,6 +18,10 @@ color-link indent-char "#3b4261"
 color-link trailingws "#e98282" # Trailing whitespaces with bright red color
 color-link line-number "#3b4261"
 color-link current-line-number "#737aa2"
+color-link diff-added "#164846" # ===
+color-link diff-modified "#705839" # Diff colors based on VS Code's Git diff status that appear to the right of line numbers
+# expect the changed color is edited to be orange color
+color-link diff-deleted "#823c41" # ===
 color-link gutter-error "#f7768e"
 color-link gutter-warning "#e0af68"
 color-link cursor-line "#292e42"

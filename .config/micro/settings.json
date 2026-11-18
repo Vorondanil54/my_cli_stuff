@@ -1,4 +1,5 @@
 {
     "colorscheme": "tokyonight",
+    "diffgutter": true,
     "hltrailingws": true
 }
