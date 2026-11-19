@@ -13,7 +13,7 @@ fastfetch --disable-linewrap
 date
 
 # === Oh My Posh ===
-eval "$(oh-my-posh init bash)"
+eval "$(oh-my-posh init bash --config "~/.mytheme.omp.json")"
 
 # === Onefetch ===
 # git repository greeter
