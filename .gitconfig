@@ -4,13 +4,24 @@
 	pager = delta
 	safecrlf = false
 
-# I removed [user] field from this copy of my gitconfig 'cause I through it will be good to not spoil my user and email options
+[init]
+	defaultbranch = main
 
 [include]
 	path = ~/.config/delta/themes.gitconfig
 
-[init]
-	defaultbranch = main
+#[pager]
+#	diff = delta --tui
+#	show = delta --tui
+#	log = delta --tui
+
+#[sequence]
+#	editor = delta --tui sequence-editor
+
+# Uncomment [user] filed below and paste your username and email in their fields
+#[user]
+#	name = YourNameHere
+#	email = youremail@domain.com
 
 [interactive]
 	diffFilter = delta --color-only
@@ -20,8 +31,13 @@
 	dark = true      # or light = true, or omit for auto-detection
 	true-color = always
 	features = colibri
+	syntax-theme= "Catppuccin Macchiato"
 	line-numbers = true
 	side-by-side = true
+
+[delta-tui]
+	file-header = stat  # Head each file with its `git diff --stat` row.
+	start-folded = true # Open every patch with its files folded.
 
 [merge]
 	conflictStyle = zdiff3
