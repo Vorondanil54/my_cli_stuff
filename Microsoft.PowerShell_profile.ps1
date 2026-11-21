@@ -31,7 +31,7 @@ function matrix { rusty-rain --shade --group large-letters }
 #=============== Info Fetching ===============
 
 # === Fastfetch ===
-fastfetch
+fastfetch --disable-linewrap
 
 # === Today's Date ===
 date
